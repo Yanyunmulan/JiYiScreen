@@ -1,7 +1,7 @@
 <template>
     <div id="info">
     <div id="box_title">
-        <h3>&nbsp;&nbsp;结构组件111&nbsp;&nbsp;</h3>
+        <h3>&nbsp;&nbsp;结构组件&nbsp;&nbsp;</h3>
     </div>
     <div id="box_content">
       <div id="view_frame">
