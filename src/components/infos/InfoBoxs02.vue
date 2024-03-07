@@ -40,7 +40,19 @@ onMounted(async() => {
     margin-bottom: 6px;
     // height: 760px;
     background-color: rgba(225,225,225,0);
-    border: 3px solid rgb(188, 188, 188);
+    // border-top: 3px solid #536f97;
+
+
+
+    border-width: 2px;
+    border-style: solid;
+    // border-color: #536f97, transparent rgb(188, 188, 188), transparent; /* 上右下左 */
+    // border-image: linear-gradient(to top, rgb(156, 156, 156), transparent, transparent, rgb(156, 156, 156));
+    border-image: linear-gradient(to left top, rgb(156, 156, 156), transparent, transparent, rgb(156, 156, 156));
+    border-image-slice: 1;
+    // border-top: 3px solid #536f97;
+
+
 }
 #box_title {
     display: inline-block;

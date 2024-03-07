@@ -3,6 +3,7 @@ import Title from '../components/CompTitle.vue'
 import Left from '../components/CompLeft.vue'
 import Right from '../components/CompRight.vue'
 import VScaleScreen from 'v-scale-screen'
+import InfoBoxs07 from '@/components/infos/InfoBoxs07.vue';
 </script>
 
 
@@ -20,6 +21,7 @@ import VScaleScreen from 'v-scale-screen'
     <div id="app">
       <Title></Title>
       <Left></Left>
+      <InfoBoxs07></InfoBoxs07>
       <Right></Right>
     </div>
   </VScaleScreen>

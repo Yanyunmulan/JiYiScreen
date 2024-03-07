@@ -186,13 +186,20 @@ body{
 	background-color: rgba(0, 0, 0, 0.0);
 
 
-  border: 3px solid rgb(188, 188, 188);
+  // border: 3px solid rgb(188, 188, 188);
   width: 380px;
   height: 300px;
   
   margin: 0 auto;
   margin-top: 4px;
   margin-bottom: 6px;
+
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(188, 188, 188) transparent rgb(188, 188, 188) transparent; /* 上右下左 */
+  border-image: linear-gradient(to bottom, rgb(156, 156, 156), transparent, transparent, rgb(156, 156, 156));
+  border-image-slice: 1;
 }
 #view04{
 	background-color: rgba(255, 255, 255, 0.0);

@@ -48,7 +48,7 @@
     margin-bottom: 6px;
     // height: 760px;
     background-color: rgba(225,225,225,0);
-    border: 3px solid rgb(188, 188, 188);
+    border: 2px solid rgb(156, 156, 156);
 }
 #box_title {
     display: inline-block;
@@ -70,8 +70,11 @@
 #view_frame {
   width: 320px;
   height: 230px;
+  margin-top: 10px;
   margin-left: 20px;
+  padding-left: 20px;
   overflow: auto;
+  border-left: 4px solid #73a5d9;
 }
 
 
@@ -84,7 +87,7 @@
 	
 /* 定义滚动条滑块样式 */
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.4); /* 滑块颜色 */
+  background-color: #73a5d9; /* 滑块颜色 */
   border-radius: 10px; /* 滑块边框半径 */
 }
 	

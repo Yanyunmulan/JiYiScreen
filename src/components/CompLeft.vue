@@ -22,7 +22,7 @@ import InfoBoxs03 from './infos/InfoBoxs03.vue'
     left: 60px;
     width: 380px;
     height: 880px;
-    background-color: rgba(255, 255, 255, 0.1);
+    // background-color: rgba(255, 255, 255, 0.1);
 }
 
 </style>

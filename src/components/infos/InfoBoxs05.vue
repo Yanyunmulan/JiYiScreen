@@ -1,7 +1,7 @@
 <template>
     <div id="info05">
         <div id="box_title">
-            <h3>&nbsp;&nbsp;组件状态&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;细节应力&nbsp;&nbsp;</h3>
         </div>
         <div id="main1"></div>
     </div>
@@ -199,13 +199,20 @@ export default {
         background-color: rgba(0, 0, 0, 0.0);
 
 
-        border: 3px solid rgb(188, 188, 188);
+        // border: 3px solid rgb(188, 188, 188);
         width: 380px;
         height: 300px;
 
         margin: 0 auto;
         margin-top: 4px;
         margin-bottom: 6px;
+
+
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(188, 188, 188) transparent rgb(188, 188, 188) transparent; /* 上右下左 */
+        border-image: linear-gradient(to bottom, rgb(156, 156, 156), transparent, transparent, rgb(156, 156, 156));
+        border-image-slice: 1;
     }
 	#main1 {
         margin-top: -20px;
