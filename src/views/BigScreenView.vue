@@ -4,6 +4,7 @@ import Left from '../components/CompLeft.vue'
 import Right from '../components/CompRight.vue'
 import VScaleScreen from 'v-scale-screen'
 import InfoBoxs07 from '@/components/infos/InfoBoxs07.vue';
+import InfoButton from '@/components/infos/InfoButton.vue';
 </script>
 
 
@@ -14,14 +15,33 @@ import InfoBoxs07 from '@/components/infos/InfoBoxs07.vue';
       <img class="zuoxia" src="@/assets/zuoxia.png" alt="">
       <img class="youshang" src="@/assets/youshang.png" alt="">
       <img class="youxia" src="@/assets/youxia.png" alt="">
+
+
+
+
       <el-icon class="icon01"><House style="width: 30px; height: 30px;"/></el-icon>
       <el-icon class="icon02"><Document style="width: 30px; height: 30px;"/></el-icon>
+      <div class="msg03">
+        <el-icon class="icon03"><Comment style="width: 40px; height: 40px;" /></el-icon>
+        <div class="alarm">
+          12
+        </div>
+      </div>
+      <div class="msg04">
+        <el-icon class="icon04"><InfoFilled style="width: 38px; height: 38px;" /></el-icon>
+        <div class="alarm">
+          3
+        </div>
+      </div>
+      <!-- <el-icon class="icon03"><Comment style="width: 40px; height: 40px;" /></el-icon> -->
+      <!-- <el-icon class="icon04"><InfoFilled style="width: 38px; height: 38px;" /></el-icon> -->
 
     </div>
     <div id="app">
       <Title></Title>
       <Left></Left>
       <InfoBoxs07></InfoBoxs07>
+      <InfoButton></InfoButton>
       <Right></Right>
     </div>
   </VScaleScreen>
@@ -86,4 +106,64 @@ import InfoBoxs07 from '@/components/infos/InfoBoxs07.vue';
   color: #ffffff;
   border-radius: 20%;
 }
+.icon03 {
+  // position: absolute;
+  // right: 120px;
+  // top: 16px;
+  width: 46px;
+  height: 46px;
+  // background-color: #4f71be;
+  color: #ffffff;
+  border-radius: 20%;
+}
+.icon04 {
+  // position: absolute;
+  // right: 64px;
+  // top: 16px;
+  width: 46px;
+  height: 46px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 20%;
+}
+
+
+.msg03 {
+  position: absolute;
+  right: 120px;
+  top: 16px;
+  width: 46px;
+  height: 46px;
+}
+
+
+.msg04 {
+  position: absolute;
+  right: 64px;
+  top: 16px;
+  width: 46px;
+  height: 46px;
+}
+
+
+
+
+.alarm {
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  background-color: red;
+  /*height: 24px;改前*/
+  min-height: 24px;/*改后新增的代码*/
+  min-width:24px;/*改后新增的代码*/
+  line-height: 24px;
+  right:-6%;
+  top: -6px;
+  text-align: center;
+  -webkit-border-radius: 24px;
+  border-radius: 24px;
+  padding:2px;
+}
+
+
 </style>
