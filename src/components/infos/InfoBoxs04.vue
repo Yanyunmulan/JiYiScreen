@@ -24,7 +24,7 @@ function init() {
 
 	var data = [
     {
-      name: '2',
+      name: '',
       children: [
         {
           name: '',
@@ -42,7 +42,7 @@ function init() {
       ]
     },
     {
-      name: '3',
+      name: '',
       children: [
         {
         name: '',
@@ -61,7 +61,7 @@ function init() {
     },
 
     {
-      name: '1',
+      name: '',
       children: [
         {
           name: '',
@@ -112,8 +112,8 @@ function init() {
     visualMap: {
       type: 'continuous',
       min: 0,
-      max: 2,
-      color: [ '#3267b9', '#85010c', '#c6501f'],
+      max: 3,
+      color: [ '#000', '#ed726e', '#d0b294'],
     },
     series: {
       type: 'sunburst',

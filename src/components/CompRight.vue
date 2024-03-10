@@ -22,6 +22,8 @@ import InfoBoxs06 from './infos/InfoBoxs06.vue'
     right: 60px;
     width: 400px;
     height: 1020px;
+    backdrop-filter: blur(10px); /* 设置模糊程度 */
+    background-color: rgba($color: #000000, $alpha: 0.5);
     // background-color: rgba(225,225,225,0.1);
 }
 

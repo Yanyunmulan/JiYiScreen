@@ -2,6 +2,7 @@
 import Title from '../components/CompTitle.vue'
 import Left from '../components/CompLeft.vue'
 import Right from '../components/CompRight.vue'
+import Model from '../components/CompModel.vue'
 import VScaleScreen from 'v-scale-screen'
 import InfoBoxs07 from '@/components/infos/InfoBoxs07.vue';
 import InfoButton from '@/components/infos/InfoButton.vue';
@@ -38,11 +39,13 @@ import InfoButton from '@/components/infos/InfoButton.vue';
 
     </div>
     <div id="app">
+      <Model></Model>
       <Title></Title>
       <Left></Left>
       <InfoBoxs07></InfoBoxs07>
       <InfoButton></InfoButton>
       <Right></Right>
+      
     </div>
   </VScaleScreen>
 
